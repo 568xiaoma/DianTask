@@ -1,16 +1,15 @@
 Markdown Notes
-==========================
-##字体
+=========================
+## 字体  
 + *****xxx***** ->*xxx* ->斜体itaic
 + ******xxx******->**xx** ->粗体bold
 
-##链接
+## 链接
 
 + [xxx] (网址)->[xxx](http://www.baidu.com)->链接网址
 + [xxx][标签]
 [标签] : 网址
-->[xxx][id]->链接网址
-[id]: http://www.baidu.com
+->[xxx](http://www.baidu.com) ->链接网址
 ## 代码
 + xxx->`xxx`->代码块(“``”或“``````”)
 
@@ -44,26 +43,26 @@ Markdown Notes
   ***
 **标题iii**
   ```
-  #xxx
+  # xxx
   ```
-  #xxx
+  # xxx
   ***
   ```
-  ##xxx
+  ## xxx
   ```
-  ##xxx
+  ## xxx
   ***
   ```
-  ###xxx
+  ### xxx
   ```
-  ###xxx
+  ### xxx
   ***
   ...
   ***
   ```
-  ######xxx
+  ###### xxx
   ```
-  ######xxx
+  ###### xxx
   ***
 **分点标志**
 ```
