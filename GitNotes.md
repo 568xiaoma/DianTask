@@ -1,4 +1,4 @@
-#git Notes
+git Notes
 ---
 #### 1.安装
 
@@ -22,8 +22,10 @@ Initialized empty Git repository in F:/Repository/Diantask/.git/
 ```
 #### 4.将文件添加到版本库
 **1.将文件放到仓库目录下**
+
 **2.将文件添加到暂存区**
-+ ```
+
+```
 $ git add 文件名
 ```
 此时文件有三种状态
@@ -32,7 +34,7 @@ $ git add 文件名
 + Changes bu not updated:已暂存过，但文件被修改还未暂存
 
 **3.将文件提交到仓库**
-+ ```
+```
 $ git commit:提交暂存区里的内容
 $ git commit -a:提交暂存区里的内容与Changes bu not updated的文件
 ```
@@ -44,7 +46,7 @@ $ git config --global core.editor 编辑器名称
 ```
 + 也可以通过如下命令简化该过程
 ```
-$git commit -m "描述内容"
+$ git commit -m "描述内容"
 ```
 
 **5.修改提交内容**
@@ -104,7 +106,7 @@ $ git checkout -- 文件名
 ```
 
 **9.删除文件**
-+ ```
+```
 $ git rm 文件名
 $ git commit
 ```
