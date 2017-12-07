@@ -138,29 +138,29 @@ git clone git@github.com:GitHub用户名/远程库
 #### 6.分支管理
 - 基本操作
 	+ 列出所有分支
-```
-$ git branch
-```
+	```
+	$ git branch
+	```
 	+ 创建分支
-```
-$ git branch 分支名称
-```
+	```
+	$ git branch 分支名称
+	```
 	+ 删除分支
-```
-$ git branch -d 分支名称
-```
+	```
+	$ git branch -d 分支名称
+	```
 	+ 切换分支
-```
-$ git checkout 分支名称
-```
+	```
+	$ git checkout 分支名称
+	```
 	+ 合并指定分支到当前分支(直接指针跳转"快进模式"没有commit)
-```
-$ git merge 分支名称
-```
+	```
+	$ git merge 分支名称
+	```
 	+ 合并指定分支到当前分支(禁用"快进模式"会生成commit)
-```
-$ git merge --no-ff -m "描述文本" dev
-```
+	```
+	$ git merge --no-ff -m "描述文本" dev
+	```
 + Dug分支
 当你正在对某一分支做修改时，需要立即进行另一个文件操作，此时需要暂存当前修改，而不影响其他操作
 	- 将当前分支编辑的工作隐藏
@@ -188,13 +188,13 @@ $ git stash pop
 开发新功能
 	- 使用上述功能进行操作与合并
 	- 强行删除分支未同步的分支
-```
-git branch -D 分支名称
-```
+	```
+	git branch -D 分支名称
+	```
 	- 删除分支已同步的分支
-```
-git branch -d 分支名称
-```
+	```
+	git branch -d 分支名称
+	```
 
 #### 7.标签管理
 所有标签都储存在本地，不会自动推送到远程
